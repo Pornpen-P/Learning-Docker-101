@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Backend2" tests="2" time="0.198">
+  <testsuite name="Get pet" id="740315ad-c009-4a46-bc39-bacb6425335d" timestamp="2024-05-08T11:25:06.642Z" tests="5" failures="4" errors="0" time="0.121">
+    <testcase name="Response status code is 200" time="0.121" classname="Backend2">
+      <failure type="AssertionFailure" message="expected 500 to equal 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6f5c3978-de15-4b30-afb4-d7fb37ccd794.]]>
+        <![CDATA[Collection name: Backend2.]]>
+        <![CDATA[Request name: Get pet.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected 500 to equal 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 500 to equal 200
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response has the required fields - id, name, and total" time="0.121" classname="Backend2">
+      <failure type="AssertionFailure" message="expected {} to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6f5c3978-de15-4b30-afb4-d7fb37ccd794.]]>
+        <![CDATA[Collection name: Backend2.]]>
+        <![CDATA[Request name: Get pet.]]>
+        <![CDATA[Test description: Response has the required fields - id, name, and total.]]>
+        <![CDATA[Error message: expected {} to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected {} to be an array
+   at Object.eval sandbox-script.js:2:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Name is a non-empty string" time="0.121" classname="Backend2">
+      <failure type="AssertionFailure" message="expected {} to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6f5c3978-de15-4b30-afb4-d7fb37ccd794.]]>
+        <![CDATA[Collection name: Backend2.]]>
+        <![CDATA[Request name: Get pet.]]>
+        <![CDATA[Test description: Name is a non-empty string.]]>
+        <![CDATA[Error message: expected {} to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected {} to be an array
+   at Object.eval sandbox-script.js:3:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Total is a non-negative integer" time="0.121" classname="Backend2">
+      <failure type="AssertionFailure" message="expected {} to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6f5c3978-de15-4b30-afb4-d7fb37ccd794.]]>
+        <![CDATA[Collection name: Backend2.]]>
+        <![CDATA[Request name: Get pet.]]>
+        <![CDATA[Test description: Total is a non-negative integer.]]>
+        <![CDATA[Error message: expected {} to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected {} to be an array
+   at Object.eval sandbox-script.js:4:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type header is application/json" time="0.121" classname="Backend2"/>
+  </testsuite>
+  <testsuite name="Get food" id="99b4791e-18d4-4f00-b531-947bb2fe7755" timestamp="2024-05-08T11:25:06.642Z" tests="5" failures="4" errors="0" time="0.077">
+    <testcase name="Response status code is 200" time="0.077" classname="Backend2">
+      <failure type="AssertionFailure" message="expected 500 to equal 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6f5c3978-de15-4b30-afb4-d7fb37ccd794.]]>
+        <![CDATA[Collection name: Backend2.]]>
+        <![CDATA[Request name: Get food.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected 500 to equal 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 500 to equal 200
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response has the required fields - id, name, and total" time="0.077" classname="Backend2">
+      <failure type="AssertionFailure" message="expected {} to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6f5c3978-de15-4b30-afb4-d7fb37ccd794.]]>
+        <![CDATA[Collection name: Backend2.]]>
+        <![CDATA[Request name: Get food.]]>
+        <![CDATA[Test description: Response has the required fields - id, name, and total.]]>
+        <![CDATA[Error message: expected {} to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected {} to be an array
+   at Object.eval sandbox-script.js:2:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Name is a non-empty string" time="0.077" classname="Backend2">
+      <failure type="AssertionFailure" message="responseData.forEach is not a function">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6f5c3978-de15-4b30-afb4-d7fb37ccd794.]]>
+        <![CDATA[Collection name: Backend2.]]>
+        <![CDATA[Request name: Get food.]]>
+        <![CDATA[Test description: Name is a non-empty string.]]>
+        <![CDATA[Error message: responseData.forEach is not a function.]]>
+        <![CDATA[Stacktrace: TypeError: responseData.forEach is not a function
+   at Object.eval sandbox-script.js:3:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Total is a non-negative integer" time="0.077" classname="Backend2">
+      <failure type="AssertionFailure" message="expected {} to be an array">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 6f5c3978-de15-4b30-afb4-d7fb37ccd794.]]>
+        <![CDATA[Collection name: Backend2.]]>
+        <![CDATA[Request name: Get food.]]>
+        <![CDATA[Test description: Total is a non-negative integer.]]>
+        <![CDATA[Error message: expected {} to be an array.]]>
+        <![CDATA[Stacktrace: AssertionError: expected {} to be an array
+   at Object.eval sandbox-script.js:4:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Content-Type header is application/json" time="0.077" classname="Backend2"/>
+  </testsuite>
+</testsuites>
