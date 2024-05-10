@@ -1,9 +1,9 @@
 version: '3'
 services:
   db_01:
-    image: postgres:16.0
+    image: db01:1.0
     build:
-      context: postgres
+      context: database1
       dockerfile: Dockerfile
     container_name: postgres1
     environment:
@@ -18,9 +18,9 @@ services:
       start_period: 5s
 
   db_02:
-    image: postgres:16.0
+    image: db02:1.0
     build:
-      context: postgres
+      context: database2
       dockerfile: Dockerfile
     container_name: postgres2
     environment:
@@ -52,8 +52,9 @@ services:
       DB2_NAME: postgres2
       DB2_USER: postgres2
       DB2_PASSWORD: postgres2
+      THIRD_PARTY_SERVICE: https://mock_api:8090/users
     healthcheck:
-      test: wget --no-verbose --tries=1 --spider http://localhost:3000 || exit 1
+      test: wget --no-verbose --tries=1 --spider http://localhost:3000/user || exit 1
       interval: 5s
       timeout: 5s
       retries: 5
@@ -83,7 +84,7 @@ services:
       DB2_USER: postgres2
       DB2_PASSWORD: postgres2
     healthcheck:
-      test: wget --no-verbose --tries=1 --spider http://localhost:3001 || exit 1
+      test: wget --no-verbose --tries=1 --spider http://localhost:3001/pet || exit 1
       interval: 5s
       timeout: 5s
       retries: 5
@@ -110,6 +111,7 @@ services:
       dockerfile: Dockerfile
     container_name: mock-api
     ports:
+      - 2525:2525
       - 8090:8090
     command: --configfile /imposters/imposters.ejs --allowInjection
     volumes:

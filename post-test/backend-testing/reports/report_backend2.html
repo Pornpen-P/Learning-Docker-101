@@ -472,7 +472,7 @@ body.theme-light code {
                 <a class="nav-link text-white" id="pills-requests-tab" data-toggle="pill" href="#pills-requests" role="tab" aria-controls="pills-requests" aria-selected="false">Total Requests <span class="badge badge-light">2</span></a>
             </li>
             <li class="nav-item bg-danger" data-toggle="tooltip" title="Click to view the Failed Tests">
-                <a class="nav-link text-white" id="pills-failed-tab" data-toggle="pill" href="#pills-failed" role="tab" aria-controls="pills-failed" aria-selected="false">Failed Tests <span class="badge badge-light">8</span></a>
+                <a class="nav-link text-white" id="pills-failed-tab" data-toggle="pill" href="#pills-failed" role="tab" aria-controls="pills-failed" aria-selected="false">Failed Tests <span class="badge badge-light">0</span></a>
             </li>
             <li class="nav-item bg-warning" data-toggle="tooltip" title="Click to view the Skipped Tests">
                 <a class="nav-link text-white" id="pills-skipped-tab" data-toggle="pill" href="#pills-skipped" role="tab" aria-controls="pills-skipped" aria-selected="false">Skipped Tests <span class="badge badge-light">0</span></a>
@@ -483,11 +483,11 @@ body.theme-light code {
 <div class="row">
   <div class="col-md-9 col-lg-12 main">
    <h1 class="display-2 text-center">Newman Run Dashboard</h1>
-   <h5 class="text-center">Wednesday, 08 May 2024 12:26:29</h5>
+   <h5 class="text-center">Friday, 10 May 2024 03:13:54</h5>
    <div class="row">
     <div class="col-lg-3 col-md-6">
      <div class="card text-white card-success">
-      <div class="card-body bg-danger">
+      <div class="card-body bg-success">
        <div class="rotate">
         <i class="fa fa-retweet fa-5x"></i>
        </div>
@@ -509,12 +509,12 @@ body.theme-light code {
     </div>
     <div class="col-lg-3 col-md-6">
      <div class="card text-white card-info">
-      <div class="card-body bg-danger">
+      <div class="card-body bg-success">
        <div class="rotate">
         <i class="fa fa-plus-circle fa-5x"></i>
        </div>
        <h6 class="text-uppercase">Total Failed Tests</h6>
-       <h1 class="display-1">8</h1>
+       <h1 class="display-1">0</h1>
       </div>
      </div>
     </div>
@@ -550,9 +550,9 @@ body.theme-light code {
             <div class="card border-info">
                 <div class="card-body">
                 <h5 class="card-title text-uppercase text-white text-center bg-info">Timings and Data</h5>
-                <span><i class="fas fa-stopwatch"></i></span><strong> Total run duration:</strong> 159ms<br>
-                <span><i class="fas fa-database"></i></span><strong> Total data received:</strong> 4B<br>
-                <span><i class="fas fa-stopwatch"></i></span><strong> Average response time:</strong> 49ms<br>
+                <span><i class="fas fa-stopwatch"></i></span><strong> Total run duration:</strong> 289ms<br>
+                <span><i class="fas fa-database"></i></span><strong> Total data received:</strong> 209B<br>
+                <span><i class="fas fa-stopwatch"></i></span><strong> Average response time:</strong> 82ms<br>
                 </div>
             </div>
         </div>
@@ -584,10 +584,10 @@ body.theme-light code {
                         <td class="text-center">2</td>
                         <td class="text-center">0</td>
                     </tr>
-                    <tr class="table-danger">
+                    <tr class="">
                         <td>Assertions</td>
                         <td class="text-center">10</td>
-                        <td class="text-center">8</td>
+                        <td class="text-center">0</td>
                     </tr>
                     <tr class="">
                         <td>Skipped Tests</td>
@@ -608,183 +608,9 @@ body.theme-light code {
             <div class="tab-pane fade" id="pills-failed" role="tabcard" aria-labelledby="pills-failed-tab">
                 <button id="topOfFailuresScreen" class="btn btn-outline-success btn-sm backToTop" onclick="topFunction()">Go To Top</button>
 
-                    <div class="btn-group float-right" role="group" aria-label="Button Group">
-                        <button id="openAllFailed" class="btn btn-outline-success btn-sm float-right" style="text-align: center; width: 185px;">Expand All Failed Tests</button>
-                    </div>
-                    <br>
-                    <br>
-
-                    <div class="alert alert-danger text-uppercase text-center">
-                        <h4>Showing 8 Failures</h4>
-                    </div>
-                    <div class="col-sm-12 mb-3">
-                    <div class="card-deck">
-                        <div class="card border-danger">
-                            <div class="card-header bg-danger">
-                                <a data-toggle="collapse" href="#" data-target="#fails-collapse-200d4cb4-4a00-4ad5-b80c-aad611620dcc" aria-expanded="false" aria-controls="collapse" id="fails-200d4cb4-4a00-4ad5-b80c-aad611620dcc" class="collapsed text-white z-block">
-                                    Iteration 1 - AssertionError - Backend2 - Get pet <i class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-                                </a>
-                            </div>
-                            <div id="fails-collapse-200d4cb4-4a00-4ad5-b80c-aad611620dcc" class="collapse" aria-labelledby="fails-200d4cb4-4a00-4ad5-b80c-aad611620dcc">
-                            <div class="card-body">
-                                <h5 ><strong>Failed Test:</strong> Response status code is 200</h5>
-                            <hr>
-                            <h5 class="card-title text-uppercase text-white text-center bg-danger">Assertion Error Message</h5>
-                            <div>
-                                <pre><code >expected 500 to equal 200</code></pre>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-sm-12 mb-3">
-                    <div class="card-deck">
-                        <div class="card border-danger">
-                            <div class="card-header bg-danger">
-                                <a data-toggle="collapse" href="#" data-target="#fails-collapse-97a3c2d8-6364-484d-923a-1e0f3456dd1a" aria-expanded="false" aria-controls="collapse" id="fails-97a3c2d8-6364-484d-923a-1e0f3456dd1a" class="collapsed text-white z-block">
-                                    Iteration 1 - AssertionError - Backend2 - Get pet <i class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-                                </a>
-                            </div>
-                            <div id="fails-collapse-97a3c2d8-6364-484d-923a-1e0f3456dd1a" class="collapse" aria-labelledby="fails-97a3c2d8-6364-484d-923a-1e0f3456dd1a">
-                            <div class="card-body">
-                                <h5 ><strong>Failed Test:</strong> Response has the required fields - id, name, and total</h5>
-                            <hr>
-                            <h5 class="card-title text-uppercase text-white text-center bg-danger">Assertion Error Message</h5>
-                            <div>
-                                <pre><code >expected {} to be an array</code></pre>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-sm-12 mb-3">
-                    <div class="card-deck">
-                        <div class="card border-danger">
-                            <div class="card-header bg-danger">
-                                <a data-toggle="collapse" href="#" data-target="#fails-collapse-fbae2380-45bd-4522-bce2-877e42a24e38" aria-expanded="false" aria-controls="collapse" id="fails-fbae2380-45bd-4522-bce2-877e42a24e38" class="collapsed text-white z-block">
-                                    Iteration 1 - AssertionError - Backend2 - Get pet <i class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-                                </a>
-                            </div>
-                            <div id="fails-collapse-fbae2380-45bd-4522-bce2-877e42a24e38" class="collapse" aria-labelledby="fails-fbae2380-45bd-4522-bce2-877e42a24e38">
-                            <div class="card-body">
-                                <h5 ><strong>Failed Test:</strong> Name is a non-empty string</h5>
-                            <hr>
-                            <h5 class="card-title text-uppercase text-white text-center bg-danger">Assertion Error Message</h5>
-                            <div>
-                                <pre><code >expected {} to be an array</code></pre>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-sm-12 mb-3">
-                    <div class="card-deck">
-                        <div class="card border-danger">
-                            <div class="card-header bg-danger">
-                                <a data-toggle="collapse" href="#" data-target="#fails-collapse-acc25f51-1381-4a3d-8332-8073c749a0ef" aria-expanded="false" aria-controls="collapse" id="fails-acc25f51-1381-4a3d-8332-8073c749a0ef" class="collapsed text-white z-block">
-                                    Iteration 1 - AssertionError - Backend2 - Get pet <i class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-                                </a>
-                            </div>
-                            <div id="fails-collapse-acc25f51-1381-4a3d-8332-8073c749a0ef" class="collapse" aria-labelledby="fails-acc25f51-1381-4a3d-8332-8073c749a0ef">
-                            <div class="card-body">
-                                <h5 ><strong>Failed Test:</strong> Total is a non-negative integer</h5>
-                            <hr>
-                            <h5 class="card-title text-uppercase text-white text-center bg-danger">Assertion Error Message</h5>
-                            <div>
-                                <pre><code >expected {} to be an array</code></pre>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-sm-12 mb-3">
-                    <div class="card-deck">
-                        <div class="card border-danger">
-                            <div class="card-header bg-danger">
-                                <a data-toggle="collapse" href="#" data-target="#fails-collapse-cc8f21b7-3465-4812-a99c-02467bfda55e" aria-expanded="false" aria-controls="collapse" id="fails-cc8f21b7-3465-4812-a99c-02467bfda55e" class="collapsed text-white z-block">
-                                    Iteration 1 - AssertionError - Backend2 - Get food <i class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-                                </a>
-                            </div>
-                            <div id="fails-collapse-cc8f21b7-3465-4812-a99c-02467bfda55e" class="collapse" aria-labelledby="fails-cc8f21b7-3465-4812-a99c-02467bfda55e">
-                            <div class="card-body">
-                                <h5 ><strong>Failed Test:</strong> Response status code is 200</h5>
-                            <hr>
-                            <h5 class="card-title text-uppercase text-white text-center bg-danger">Assertion Error Message</h5>
-                            <div>
-                                <pre><code >expected 500 to equal 200</code></pre>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-sm-12 mb-3">
-                    <div class="card-deck">
-                        <div class="card border-danger">
-                            <div class="card-header bg-danger">
-                                <a data-toggle="collapse" href="#" data-target="#fails-collapse-cbc159d8-9767-498e-ba5b-f4e29714e918" aria-expanded="false" aria-controls="collapse" id="fails-cbc159d8-9767-498e-ba5b-f4e29714e918" class="collapsed text-white z-block">
-                                    Iteration 1 - AssertionError - Backend2 - Get food <i class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-                                </a>
-                            </div>
-                            <div id="fails-collapse-cbc159d8-9767-498e-ba5b-f4e29714e918" class="collapse" aria-labelledby="fails-cbc159d8-9767-498e-ba5b-f4e29714e918">
-                            <div class="card-body">
-                                <h5 ><strong>Failed Test:</strong> Response has the required fields - id, name, and total</h5>
-                            <hr>
-                            <h5 class="card-title text-uppercase text-white text-center bg-danger">Assertion Error Message</h5>
-                            <div>
-                                <pre><code >expected {} to be an array</code></pre>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-sm-12 mb-3">
-                    <div class="card-deck">
-                        <div class="card border-danger">
-                            <div class="card-header bg-danger">
-                                <a data-toggle="collapse" href="#" data-target="#fails-collapse-0a2dcad7-b2bb-4aaf-aaab-323a36b162de" aria-expanded="false" aria-controls="collapse" id="fails-0a2dcad7-b2bb-4aaf-aaab-323a36b162de" class="collapsed text-white z-block">
-                                    Iteration 1 - TypeError - Backend2 - Get food <i class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-                                </a>
-                            </div>
-                            <div id="fails-collapse-0a2dcad7-b2bb-4aaf-aaab-323a36b162de" class="collapse" aria-labelledby="fails-0a2dcad7-b2bb-4aaf-aaab-323a36b162de">
-                            <div class="card-body">
-                                <h5 ><strong>Failed Test:</strong> Name is a non-empty string</h5>
-                            <hr>
-                            <h5 class="card-title text-uppercase text-white text-center bg-danger">Assertion Error Message</h5>
-                            <div>
-                                <pre><code >responseData.forEach is not a function</code></pre>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-sm-12 mb-3">
-                    <div class="card-deck">
-                        <div class="card border-danger">
-                            <div class="card-header bg-danger">
-                                <a data-toggle="collapse" href="#" data-target="#fails-collapse-d130f90b-5761-434e-b697-8e0ad491b418" aria-expanded="false" aria-controls="collapse" id="fails-d130f90b-5761-434e-b697-8e0ad491b418" class="collapsed text-white z-block">
-                                    Iteration 1 - AssertionError - Backend2 - Get food <i class="float-lg-right fa fa-chevron-down" style="padding-top:5px;"></i>
-                                </a>
-                            </div>
-                            <div id="fails-collapse-d130f90b-5761-434e-b697-8e0ad491b418" class="collapse" aria-labelledby="fails-d130f90b-5761-434e-b697-8e0ad491b418">
-                            <div class="card-body">
-                                <h5 ><strong>Failed Test:</strong> Total is a non-negative integer</h5>
-                            <hr>
-                            <h5 class="card-title text-uppercase text-white text-center bg-danger">Assertion Error Message</h5>
-                            <div>
-                                <pre><code >expected {} to be an array</code></pre>
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
+                <div class="alert alert-success text-uppercase text-center">
+                     <br><br><h1 class="text-center">There are no failed tests <span><i class="far fa-thumbs-up"></i></span></h1><br><br>
+                </div>
             </div>
 
             <div class="tab-pane fade" id="pills-skipped" role="tabcard" aria-labelledby="pills-skipped-tab">
@@ -799,7 +625,6 @@ body.theme-light code {
             <button id="topOfRequestsScreen" class="btn btn-outline-success btn-sm backToTop" onclick="topFunction()">Go To Top</button>
 
             <div class="btn-group float-right" role="group" aria-label="Button Group">
-                <button id="showOnlyFailures" class="btn btn-outline-success btn-sm float-right" style="text-align: center; width:160px;">Show Failed Iterations</button>
                 <button id="openAll" class="btn btn-outline-success btn-sm float-right" style="text-align: center; width: 140px;">Expand Folders</button>
                 <button id="openAllRequests" class="btn btn-outline-success btn-sm float-right" style="text-align: center; width: 140px;">Expand Requests</button>
             </div>
@@ -814,16 +639,16 @@ body.theme-light code {
     </div>
     <h6 class="text-uppercase text-muted" id="iterationSelected" style="padding-top: 10px;"></h6>
 	<div class="tab-content" id="execution-data">
-            <div id="folder-7f65773b-41d4-43d1-931e-3be6ead07f75" class="card-deck iteration-0">
+            <div id="folder-d1e480d0-8325-45dc-96b3-07ff341a3be7" class="card-deck iteration-0">
             <div class="row iteration-0">
                 <div class="col-sm-12 mb-3 iteration-0">
                 <div class="card iteration-0">
-                    <div class="card-header  bg-danger iteration-0">
-                        <a data-toggle="collapse" href="#" data-target="#collapse-7f65773b-41d4-43d1-931e-3be6ead07f75" aria-expanded="false" aria-controls="collapse" id="requests-7f65773b-41d4-43d1-931e-3be6ead07f75" class="collapsed text-white z-block">
+                    <div class="card-header  bg-success iteration-0">
+                        <a data-toggle="collapse" href="#" data-target="#collapse-d1e480d0-8325-45dc-96b3-07ff341a3be7" aria-expanded="false" aria-controls="collapse" id="requests-d1e480d0-8325-45dc-96b3-07ff341a3be7" class="collapsed text-white z-block">
                     Iteration: 1 - Get pet <i class="float-lg-right fa fa-chevron-down" style="padding-top: 5px;"></i>
                 </a>
                     </div>
-                    <div id="collapse-7f65773b-41d4-43d1-931e-3be6ead07f75" class="collapse" aria-labelledby="requests-7f65773b-41d4-43d1-931e-3be6ead07f75">
+                    <div id="collapse-d1e480d0-8325-45dc-96b3-07ff341a3be7" class="collapse" aria-labelledby="requests-d1e480d0-8325-45dc-96b3-07ff341a3be7">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-12 mb-3">
@@ -838,15 +663,15 @@ body.theme-light code {
                                 <div class="card border-info" style="width: 50rem;">
                                     <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Information</h5>
-                                    <span><i class="fas fa-info-circle"></i></span><strong> Response Code:</strong> <span class="float-right badge-outline badge badge-success"> 500 - Internal Server Error</span><br>
-                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 82ms</span><br>
-                                    <span><i class="fas fa-database"></i></span><strong> Mean size per request:</strong> <span class="float-right badge-outline badge badge-success"> 2B</span><br>
+                                    <span><i class="fas fa-info-circle"></i></span><strong> Response Code:</strong> <span class="float-right badge-outline badge badge-success"> 200 - OK</span><br>
+                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 124ms</span><br>
+                                    <span><i class="fas fa-database"></i></span><strong> Mean size per request:</strong> <span class="float-right badge-outline badge badge-success"> 101B</span><br>
                                     <hr>
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Test Pass Percentage</h5>
                                     <div>
                                         <div class="progress" style="height: 40px;">
-                                            <div class="progress-bar  bg-danger" style="width: 100%" role="progressbar">
-                                            <h5 style="padding-top:5px;"><strong>20 %</strong></h5>
+                                            <div class="progress-bar  bg-success" style="width: 100%" role="progressbar">
+                                            <h5 style="padding-top:5px;"><strong>100 %</strong></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -879,7 +704,7 @@ body.theme-light code {
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Postman-Token</td>
-                                                        <td class="text-wrap">e28e3fe8-a129-47ba-8314-449177daac79</td>
+                                                        <td class="text-wrap">4777ad00-68b5-457a-a598-b6568b2b696f</td>
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Host</td>
@@ -921,15 +746,15 @@ body.theme-light code {
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Content-Length</td>
-                                                    <td class="text-wrap">2</td>
+                                                    <td class="text-wrap">101</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">ETag</td>
-                                                    <td class="text-wrap">W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;</td>
+                                                    <td class="text-wrap">W/&quot;65-CHAS/nBFHP0IwUJse3qCV1dWMq8&quot;</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Date</td>
-                                                    <td class="text-wrap">Wed, 08 May 2024 12:26:29 GMT</td>
+                                                    <td class="text-wrap">Fri, 10 May 2024 03:13:54 GMT</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Connection</td>
@@ -954,10 +779,10 @@ body.theme-light code {
                                 <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Body</h5>
                                         <div class="dyn-height">
-                                                <pre><code id="copyText-2eb5cd73-6e8a-422b-90cb-9fc67fdf1476" class="prettyPrint">{}</code></pre>
+                                                <pre><code id="copyText-c12cd584-5494-41d7-be21-3633bdbc42d2" class="prettyPrint">[{&quot;id&quot;:1,&quot;name&quot;:&quot;Dog&quot;,&quot;total&quot;:2},{&quot;id&quot;:2,&quot;name&quot;:&quot;Cat&quot;,&quot;total&quot;:1},{&quot;id&quot;:3,&quot;name&quot;:&quot;Rabbit&quot;,&quot;total&quot;:10}]</code></pre>
                                         </div>
                                         <div class="card-footer">
-                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-2eb5cd73-6e8a-422b-90cb-9fc67fdf1476">Copy to Clipboard</button>
+                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-c12cd584-5494-41d7-be21-3633bdbc42d2">Copy to Clipboard</button>
                                         </div>
                                 </div>
                             </div>
@@ -974,26 +799,26 @@ body.theme-light code {
                                             <tbody>
                                                 <tr >
                                                     <td >Response status code is 200</td>
+                                                    <td class="text-center bg-success">1</td>
                                                     <td class="text-center ">0</td>
-                                                    <td class="text-center bg-danger">1</td>
                                                     <td class="text-center ">0</td>
                                                 </tr>
                                                 <tr >
                                                     <td >Response has the required fields - id, name, and total</td>
+                                                    <td class="text-center bg-success">1</td>
                                                     <td class="text-center ">0</td>
-                                                    <td class="text-center bg-danger">1</td>
                                                     <td class="text-center ">0</td>
                                                 </tr>
                                                 <tr >
                                                     <td >Name is a non-empty string</td>
+                                                    <td class="text-center bg-success">1</td>
                                                     <td class="text-center ">0</td>
-                                                    <td class="text-center bg-danger">1</td>
                                                     <td class="text-center ">0</td>
                                                 </tr>
                                                 <tr >
                                                     <td >Total is a non-negative integer</td>
+                                                    <td class="text-center bg-success">1</td>
                                                     <td class="text-center ">0</td>
-                                                    <td class="text-center bg-danger">1</td>
                                                     <td class="text-center ">0</td>
                                                 </tr>
                                                 <tr >
@@ -1006,39 +831,23 @@ body.theme-light code {
                                             <tfoot>
                                                 <tr class="bg-light">
                                                     <td><strong>Total</strong></td>
-                                                    <td class="text-center">1</td>
-                                                    <td class="text-center">4</td>
+                                                    <td class="text-center">5</td>
+                                                    <td class="text-center">0</td>
                                                     <td class="text-center">0</td>
                                                 </tr>
                                             </tfoot>
                                         </table>
                                     </div>
-                                    <div class="row ">
+                                    <div class="row d-none">
                                     <div class="col-sm-12 mb-3">
                                         <div class="card-deck">
                                         <div class="card border-danger" style="width: 50rem;">
                                             <div class="card-body">
-                                                <h5 class="card-title text-uppercase text-white text-center bg-danger">Test Failures</h5>
+                                                <h5 class="card-title text-uppercase text-white text-center bg-danger">Test Failure</h5>
                                                 <div class="table-responsive">
                                                     <table class="table table-hover">
                                                     <thead><tr class="text-nowrap"><th>Test Name</th><th>Assertion Error</th></tr></thead>
                                                         <tbody>
-                                                            <tr>
-                                                                <td class="w-45 text-nowrap ">Response status code is 200</td>
-                                                                <td class="w-55"><pre><code >expected 500 to equal 200</code></pre></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="w-45 text-nowrap ">Response has the required fields - id, name, and total</td>
-                                                                <td class="w-55"><pre><code >expected {} to be an array</code></pre></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="w-45 text-nowrap ">Name is a non-empty string</td>
-                                                                <td class="w-55"><pre><code >expected {} to be an array</code></pre></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="w-45 text-nowrap ">Total is a non-negative integer</td>
-                                                                <td class="w-55"><pre><code >expected {} to be an array</code></pre></td>
-                                                            </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
@@ -1056,16 +865,16 @@ body.theme-light code {
                 </div>
             </div>
             </div>
-            <div id="folder-59698250-dcc7-4c5d-b868-77636b22318f" class="card-deck iteration-0">
+            <div id="folder-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8" class="card-deck iteration-0">
             <div class="row iteration-0">
                 <div class="col-sm-12 mb-3 iteration-0">
                 <div class="card iteration-0">
-                    <div class="card-header  bg-danger iteration-0">
-                        <a data-toggle="collapse" href="#" data-target="#collapse-59698250-dcc7-4c5d-b868-77636b22318f" aria-expanded="false" aria-controls="collapse" id="requests-59698250-dcc7-4c5d-b868-77636b22318f" class="collapsed text-white z-block">
+                    <div class="card-header  bg-success iteration-0">
+                        <a data-toggle="collapse" href="#" data-target="#collapse-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8" aria-expanded="false" aria-controls="collapse" id="requests-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8" class="collapsed text-white z-block">
                     Iteration: 1 - Get food <i class="float-lg-right fa fa-chevron-down" style="padding-top: 5px;"></i>
                 </a>
                     </div>
-                    <div id="collapse-59698250-dcc7-4c5d-b868-77636b22318f" class="collapse" aria-labelledby="requests-59698250-dcc7-4c5d-b868-77636b22318f">
+                    <div id="collapse-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8" class="collapse" aria-labelledby="requests-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8">
                     <div class="card-body">
                         <div class="row">
                             <div class="col-sm-12 mb-3">
@@ -1080,15 +889,15 @@ body.theme-light code {
                                 <div class="card border-info" style="width: 50rem;">
                                     <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Information</h5>
-                                    <span><i class="fas fa-info-circle"></i></span><strong> Response Code:</strong> <span class="float-right badge-outline badge badge-success"> 500 - Internal Server Error</span><br>
-                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 17ms</span><br>
-                                    <span><i class="fas fa-database"></i></span><strong> Mean size per request:</strong> <span class="float-right badge-outline badge badge-success"> 2B</span><br>
+                                    <span><i class="fas fa-info-circle"></i></span><strong> Response Code:</strong> <span class="float-right badge-outline badge badge-success"> 200 - OK</span><br>
+                                    <span><i class="fas fa-stopwatch"></i></span><strong> Mean time per request:</strong> <span class="float-right badge-outline badge badge-success"> 41ms</span><br>
+                                    <span><i class="fas fa-database"></i></span><strong> Mean size per request:</strong> <span class="float-right badge-outline badge badge-success"> 108B</span><br>
                                     <hr>
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Test Pass Percentage</h5>
                                     <div>
                                         <div class="progress" style="height: 40px;">
-                                            <div class="progress-bar  bg-danger" style="width: 100%" role="progressbar">
-                                            <h5 style="padding-top:5px;"><strong>20 %</strong></h5>
+                                            <div class="progress-bar  bg-success" style="width: 100%" role="progressbar">
+                                            <h5 style="padding-top:5px;"><strong>100 %</strong></h5>
                                             </div>
                                         </div>
                                     </div>
@@ -1121,7 +930,7 @@ body.theme-light code {
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Postman-Token</td>
-                                                        <td class="text-wrap">65b9fbdc-464f-452f-9332-06d7b8f9daf7</td>
+                                                        <td class="text-wrap">ce9e8db5-4365-4c13-8e27-66fffbf520b7</td>
                                                     </tr>
                                                     <tr>
                                                         <td class="text-nowrap">Host</td>
@@ -1163,15 +972,15 @@ body.theme-light code {
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Content-Length</td>
-                                                    <td class="text-wrap">2</td>
+                                                    <td class="text-wrap">108</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">ETag</td>
-                                                    <td class="text-wrap">W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;</td>
+                                                    <td class="text-wrap">W/&quot;6c-kiCI9S9T50+mB+ro9u6govrU1O0&quot;</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Date</td>
-                                                    <td class="text-wrap">Wed, 08 May 2024 12:26:29 GMT</td>
+                                                    <td class="text-wrap">Fri, 10 May 2024 03:13:54 GMT</td>
                                                 </tr>
                                                 <tr>
                                                     <td class="text-nowrap">Connection</td>
@@ -1196,10 +1005,10 @@ body.theme-light code {
                                 <div class="card-body">
                                     <h5 class="card-title text-uppercase text-white text-center bg-info">Response Body</h5>
                                         <div class="dyn-height">
-                                                <pre><code id="copyText-5a91685c-8eaa-4776-92f0-6ade33a5340f" class="prettyPrint">{}</code></pre>
+                                                <pre><code id="copyText-59bc101e-2754-47ab-960b-97daecc79678" class="prettyPrint">[{&quot;id&quot;:1,&quot;name&quot;:&quot;Smart hart&quot;,&quot;total&quot;:2},{&quot;id&quot;:2,&quot;name&quot;:&quot;Kaniva&quot;,&quot;total&quot;:3},{&quot;id&quot;:3,&quot;name&quot;:&quot;Me-o&quot;,&quot;total&quot;:1}]</code></pre>
                                         </div>
                                         <div class="card-footer">
-                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-5a91685c-8eaa-4776-92f0-6ade33a5340f">Copy to Clipboard</button>
+                                            <button class="btn btn-outline-secondary btn-sm copyButton" type="button" data-clipboard-action="copy" data-clipboard-target="#copyText-59bc101e-2754-47ab-960b-97daecc79678">Copy to Clipboard</button>
                                         </div>
                                 </div>
                             </div>
@@ -1216,26 +1025,26 @@ body.theme-light code {
                                             <tbody>
                                                 <tr >
                                                     <td >Response status code is 200</td>
+                                                    <td class="text-center bg-success">1</td>
                                                     <td class="text-center ">0</td>
-                                                    <td class="text-center bg-danger">1</td>
                                                     <td class="text-center ">0</td>
                                                 </tr>
                                                 <tr >
                                                     <td >Response has the required fields - id, name, and total</td>
+                                                    <td class="text-center bg-success">1</td>
                                                     <td class="text-center ">0</td>
-                                                    <td class="text-center bg-danger">1</td>
                                                     <td class="text-center ">0</td>
                                                 </tr>
                                                 <tr >
                                                     <td >Name is a non-empty string</td>
+                                                    <td class="text-center bg-success">1</td>
                                                     <td class="text-center ">0</td>
-                                                    <td class="text-center bg-danger">1</td>
                                                     <td class="text-center ">0</td>
                                                 </tr>
                                                 <tr >
                                                     <td >Total is a non-negative integer</td>
+                                                    <td class="text-center bg-success">1</td>
                                                     <td class="text-center ">0</td>
-                                                    <td class="text-center bg-danger">1</td>
                                                     <td class="text-center ">0</td>
                                                 </tr>
                                                 <tr >
@@ -1248,39 +1057,23 @@ body.theme-light code {
                                             <tfoot>
                                                 <tr class="bg-light">
                                                     <td><strong>Total</strong></td>
-                                                    <td class="text-center">1</td>
-                                                    <td class="text-center">4</td>
+                                                    <td class="text-center">5</td>
+                                                    <td class="text-center">0</td>
                                                     <td class="text-center">0</td>
                                                 </tr>
                                             </tfoot>
                                         </table>
                                     </div>
-                                    <div class="row ">
+                                    <div class="row d-none">
                                     <div class="col-sm-12 mb-3">
                                         <div class="card-deck">
                                         <div class="card border-danger" style="width: 50rem;">
                                             <div class="card-body">
-                                                <h5 class="card-title text-uppercase text-white text-center bg-danger">Test Failures</h5>
+                                                <h5 class="card-title text-uppercase text-white text-center bg-danger">Test Failure</h5>
                                                 <div class="table-responsive">
                                                     <table class="table table-hover">
                                                     <thead><tr class="text-nowrap"><th>Test Name</th><th>Assertion Error</th></tr></thead>
                                                         <tbody>
-                                                            <tr>
-                                                                <td class="w-45 text-nowrap ">Response status code is 200</td>
-                                                                <td class="w-55"><pre><code >expected 500 to equal 200</code></pre></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="w-45 text-nowrap ">Response has the required fields - id, name, and total</td>
-                                                                <td class="w-55"><pre><code >expected {} to be an array</code></pre></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="w-45 text-nowrap ">Name is a non-empty string</td>
-                                                                <td class="w-55"><pre><code >responseData.forEach is not a function</code></pre></td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td class="w-45 text-nowrap ">Total is a non-negative integer</td>
-                                                                <td class="w-55"><pre><code >expected {} to be an array</code></pre></td>
-                                                            </tr>
                                                         </tbody>
                                                     </table>
                                                 </div>
@@ -1386,25 +1179,25 @@ $('#openAllRequests').on('click', function(e) {
 let clickCount = $(this).data("clickCount") || 1
 switch (clickCount){
     case 1:
-            $('#requests-7f65773b-41d4-43d1-931e-3be6ead07f75').removeClass('collapsed')
-            $('#collapse-7f65773b-41d4-43d1-931e-3be6ead07f75').removeClass('collapsed')
-            $('#requests-7f65773b-41d4-43d1-931e-3be6ead07f75').addClass('show')
-            $('#collapse-7f65773b-41d4-43d1-931e-3be6ead07f75').addClass('show')
-            $('#requests-59698250-dcc7-4c5d-b868-77636b22318f').removeClass('collapsed')
-            $('#collapse-59698250-dcc7-4c5d-b868-77636b22318f').removeClass('collapsed')
-            $('#requests-59698250-dcc7-4c5d-b868-77636b22318f').addClass('show')
-            $('#collapse-59698250-dcc7-4c5d-b868-77636b22318f').addClass('show')
+            $('#requests-d1e480d0-8325-45dc-96b3-07ff341a3be7').removeClass('collapsed')
+            $('#collapse-d1e480d0-8325-45dc-96b3-07ff341a3be7').removeClass('collapsed')
+            $('#requests-d1e480d0-8325-45dc-96b3-07ff341a3be7').addClass('show')
+            $('#collapse-d1e480d0-8325-45dc-96b3-07ff341a3be7').addClass('show')
+            $('#requests-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').removeClass('collapsed')
+            $('#collapse-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').removeClass('collapsed')
+            $('#requests-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').addClass('show')
+            $('#collapse-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').addClass('show')
         $('#openAllRequests').html("Collapse Requests");
         break;
     case 2:
-            $('#requests-7f65773b-41d4-43d1-931e-3be6ead07f75').addClass('collapsed')
-            $('#collapse-7f65773b-41d4-43d1-931e-3be6ead07f75').addClass('collapsed')
-            $('#requests-7f65773b-41d4-43d1-931e-3be6ead07f75').removeClass('show')
-            $('#collapse-7f65773b-41d4-43d1-931e-3be6ead07f75').removeClass('show')
-            $('#requests-59698250-dcc7-4c5d-b868-77636b22318f').addClass('collapsed')
-            $('#collapse-59698250-dcc7-4c5d-b868-77636b22318f').addClass('collapsed')
-            $('#requests-59698250-dcc7-4c5d-b868-77636b22318f').removeClass('show')
-            $('#collapse-59698250-dcc7-4c5d-b868-77636b22318f').removeClass('show')
+            $('#requests-d1e480d0-8325-45dc-96b3-07ff341a3be7').addClass('collapsed')
+            $('#collapse-d1e480d0-8325-45dc-96b3-07ff341a3be7').addClass('collapsed')
+            $('#requests-d1e480d0-8325-45dc-96b3-07ff341a3be7').removeClass('show')
+            $('#collapse-d1e480d0-8325-45dc-96b3-07ff341a3be7').removeClass('show')
+            $('#requests-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').addClass('collapsed')
+            $('#collapse-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').addClass('collapsed')
+            $('#requests-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').removeClass('show')
+            $('#collapse-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').removeClass('show')
         $('#openAllRequests').html("Expand Requests");
         break;
 }
@@ -1420,25 +1213,25 @@ $('#openAllSkipped').on('click', function(e) {
 let clickCount = $(this).data("clickCount") || 1
 switch (clickCount){
     case 1:
-            $('#skipped-7f65773b-41d4-43d1-931e-3be6ead07f75').removeClass('collapsed')
-            $('#skipped-collapse-7f65773b-41d4-43d1-931e-3be6ead07f75').removeClass('collapsed')
-            $('#skipped-7f65773b-41d4-43d1-931e-3be6ead07f75').addClass('show')
-            $('#skipped-collapse-7f65773b-41d4-43d1-931e-3be6ead07f75').addClass('show')
-            $('#skipped-59698250-dcc7-4c5d-b868-77636b22318f').removeClass('collapsed')
-            $('#skipped-collapse-59698250-dcc7-4c5d-b868-77636b22318f').removeClass('collapsed')
-            $('#skipped-59698250-dcc7-4c5d-b868-77636b22318f').addClass('show')
-            $('#skipped-collapse-59698250-dcc7-4c5d-b868-77636b22318f').addClass('show')
+            $('#skipped-d1e480d0-8325-45dc-96b3-07ff341a3be7').removeClass('collapsed')
+            $('#skipped-collapse-d1e480d0-8325-45dc-96b3-07ff341a3be7').removeClass('collapsed')
+            $('#skipped-d1e480d0-8325-45dc-96b3-07ff341a3be7').addClass('show')
+            $('#skipped-collapse-d1e480d0-8325-45dc-96b3-07ff341a3be7').addClass('show')
+            $('#skipped-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').removeClass('collapsed')
+            $('#skipped-collapse-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').removeClass('collapsed')
+            $('#skipped-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').addClass('show')
+            $('#skipped-collapse-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').addClass('show')
         $('#openAllSkipped').html("Collapse All Skipped Tests");
         break;
     case 2:
-            $('#skipped-7f65773b-41d4-43d1-931e-3be6ead07f75').addClass('collapsed')
-            $('#skipped-collapse-7f65773b-41d4-43d1-931e-3be6ead07f75').addClass('collapsed')
-            $('#skipped-7f65773b-41d4-43d1-931e-3be6ead07f75').removeClass('show')
-            $('#skipped-collapse-7f65773b-41d4-43d1-931e-3be6ead07f75').removeClass('show')
-            $('#skipped-59698250-dcc7-4c5d-b868-77636b22318f').addClass('collapsed')
-            $('#skipped-collapse-59698250-dcc7-4c5d-b868-77636b22318f').addClass('collapsed')
-            $('#skipped-59698250-dcc7-4c5d-b868-77636b22318f').removeClass('show')
-            $('#skipped-collapse-59698250-dcc7-4c5d-b868-77636b22318f').removeClass('show')
+            $('#skipped-d1e480d0-8325-45dc-96b3-07ff341a3be7').addClass('collapsed')
+            $('#skipped-collapse-d1e480d0-8325-45dc-96b3-07ff341a3be7').addClass('collapsed')
+            $('#skipped-d1e480d0-8325-45dc-96b3-07ff341a3be7').removeClass('show')
+            $('#skipped-collapse-d1e480d0-8325-45dc-96b3-07ff341a3be7').removeClass('show')
+            $('#skipped-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').addClass('collapsed')
+            $('#skipped-collapse-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').addClass('collapsed')
+            $('#skipped-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').removeClass('show')
+            $('#skipped-collapse-cb6ce8e0-461b-439c-b00b-8d17b68cf4a8').removeClass('show')
         $('#openAllSkipped').html("Expand All Skipped Tests");
         break;
 }
@@ -1456,105 +1249,9 @@ let failedItemContent
 let failedItemHeading
 switch (clickCount){
     case 1:
-            failedItemHeading = $('#fails-200d4cb4-4a00-4ad5-b80c-aad611620dcc');
-            failedItemContent = $("#fails-collapse-200d4cb4-4a00-4ad5-b80c-aad611620dcc");
-            failedItemHeading.removeClass('collapsed')
-            failedItemContent.removeClass('collapsed')
-            failedItemHeading.addClass('show')
-            failedItemContent.addClass('show')
-            failedItemHeading = $('#fails-97a3c2d8-6364-484d-923a-1e0f3456dd1a');
-            failedItemContent = $("#fails-collapse-97a3c2d8-6364-484d-923a-1e0f3456dd1a");
-            failedItemHeading.removeClass('collapsed')
-            failedItemContent.removeClass('collapsed')
-            failedItemHeading.addClass('show')
-            failedItemContent.addClass('show')
-            failedItemHeading = $('#fails-fbae2380-45bd-4522-bce2-877e42a24e38');
-            failedItemContent = $("#fails-collapse-fbae2380-45bd-4522-bce2-877e42a24e38");
-            failedItemHeading.removeClass('collapsed')
-            failedItemContent.removeClass('collapsed')
-            failedItemHeading.addClass('show')
-            failedItemContent.addClass('show')
-            failedItemHeading = $('#fails-acc25f51-1381-4a3d-8332-8073c749a0ef');
-            failedItemContent = $("#fails-collapse-acc25f51-1381-4a3d-8332-8073c749a0ef");
-            failedItemHeading.removeClass('collapsed')
-            failedItemContent.removeClass('collapsed')
-            failedItemHeading.addClass('show')
-            failedItemContent.addClass('show')
-            failedItemHeading = $('#fails-cc8f21b7-3465-4812-a99c-02467bfda55e');
-            failedItemContent = $("#fails-collapse-cc8f21b7-3465-4812-a99c-02467bfda55e");
-            failedItemHeading.removeClass('collapsed')
-            failedItemContent.removeClass('collapsed')
-            failedItemHeading.addClass('show')
-            failedItemContent.addClass('show')
-            failedItemHeading = $('#fails-cbc159d8-9767-498e-ba5b-f4e29714e918');
-            failedItemContent = $("#fails-collapse-cbc159d8-9767-498e-ba5b-f4e29714e918");
-            failedItemHeading.removeClass('collapsed')
-            failedItemContent.removeClass('collapsed')
-            failedItemHeading.addClass('show')
-            failedItemContent.addClass('show')
-            failedItemHeading = $('#fails-0a2dcad7-b2bb-4aaf-aaab-323a36b162de');
-            failedItemContent = $("#fails-collapse-0a2dcad7-b2bb-4aaf-aaab-323a36b162de");
-            failedItemHeading.removeClass('collapsed')
-            failedItemContent.removeClass('collapsed')
-            failedItemHeading.addClass('show')
-            failedItemContent.addClass('show')
-            failedItemHeading = $('#fails-d130f90b-5761-434e-b697-8e0ad491b418');
-            failedItemContent = $("#fails-collapse-d130f90b-5761-434e-b697-8e0ad491b418");
-            failedItemHeading.removeClass('collapsed')
-            failedItemContent.removeClass('collapsed')
-            failedItemHeading.addClass('show')
-            failedItemContent.addClass('show')
         $('#openAllFailed').html("Collapse All Failed Tests");
         break;
     case 2:
-            failedItemHeading = $('#fails-200d4cb4-4a00-4ad5-b80c-aad611620dcc');
-            failedItemContent = $("#fails-collapse-200d4cb4-4a00-4ad5-b80c-aad611620dcc");
-            failedItemHeading.removeClass('show')
-            failedItemContent.removeClass('show')
-            failedItemHeading.addClass('collapsed')
-            failedItemContent.addClass('collapsed')
-            failedItemHeading = $('#fails-97a3c2d8-6364-484d-923a-1e0f3456dd1a');
-            failedItemContent = $("#fails-collapse-97a3c2d8-6364-484d-923a-1e0f3456dd1a");
-            failedItemHeading.removeClass('show')
-            failedItemContent.removeClass('show')
-            failedItemHeading.addClass('collapsed')
-            failedItemContent.addClass('collapsed')
-            failedItemHeading = $('#fails-fbae2380-45bd-4522-bce2-877e42a24e38');
-            failedItemContent = $("#fails-collapse-fbae2380-45bd-4522-bce2-877e42a24e38");
-            failedItemHeading.removeClass('show')
-            failedItemContent.removeClass('show')
-            failedItemHeading.addClass('collapsed')
-            failedItemContent.addClass('collapsed')
-            failedItemHeading = $('#fails-acc25f51-1381-4a3d-8332-8073c749a0ef');
-            failedItemContent = $("#fails-collapse-acc25f51-1381-4a3d-8332-8073c749a0ef");
-            failedItemHeading.removeClass('show')
-            failedItemContent.removeClass('show')
-            failedItemHeading.addClass('collapsed')
-            failedItemContent.addClass('collapsed')
-            failedItemHeading = $('#fails-cc8f21b7-3465-4812-a99c-02467bfda55e');
-            failedItemContent = $("#fails-collapse-cc8f21b7-3465-4812-a99c-02467bfda55e");
-            failedItemHeading.removeClass('show')
-            failedItemContent.removeClass('show')
-            failedItemHeading.addClass('collapsed')
-            failedItemContent.addClass('collapsed')
-            failedItemHeading = $('#fails-cbc159d8-9767-498e-ba5b-f4e29714e918');
-            failedItemContent = $("#fails-collapse-cbc159d8-9767-498e-ba5b-f4e29714e918");
-            failedItemHeading.removeClass('show')
-            failedItemContent.removeClass('show')
-            failedItemHeading.addClass('collapsed')
-            failedItemContent.addClass('collapsed')
-            failedItemHeading = $('#fails-0a2dcad7-b2bb-4aaf-aaab-323a36b162de');
-            failedItemContent = $("#fails-collapse-0a2dcad7-b2bb-4aaf-aaab-323a36b162de");
-            failedItemHeading.removeClass('show')
-            failedItemContent.removeClass('show')
-            failedItemHeading.addClass('collapsed')
-            failedItemContent.addClass('collapsed')
-            failedItemHeading = $('#fails-d130f90b-5761-434e-b697-8e0ad491b418');
-            failedItemContent = $("#fails-collapse-d130f90b-5761-434e-b697-8e0ad491b418");
-            failedItemHeading.removeClass('show')
-            failedItemContent.removeClass('show')
-            failedItemHeading.addClass('collapsed')
-            failedItemContent.addClass('collapsed')
         $('#openAllFailed').html("Expand All Failed Tests");
         break;
 }
@@ -1679,8 +1376,6 @@ function scrollFunction() {
     document.getElementById("openAllRequests").style.display = "none";
 
 
-    document.getElementById("showOnlyFailures").style.display = "none";
-    document.getElementById("openAllFailed").style.display = "none";
   } else {
     document.getElementById("topOfRequestsScreen").style.display = "none";
     document.getElementById("topOfFailuresScreen").style.display = "none";
@@ -1688,8 +1383,6 @@ function scrollFunction() {
     document.getElementById("openAll").style.display = "block";
     document.getElementById("openAllRequests").style.display = "block";
 
-    document.getElementById("showOnlyFailures").style.display = "block";
-    document.getElementById("openAllFailed").style.display = "block";
   }
 }
 
@@ -1752,8 +1445,6 @@ window.onload = function () {
   document.getElementById('iteration-0').click();
   document.getElementById('iterationSelected').innerHTML = `Iteration ${document.getElementById('iteration-0').innerHTML} selected`
 
-    $("#iteration-0").removeClass('itPassed').addClass('itFailed')
-    $("#iteration-0").removeClass('itPassed').addClass('itFailed')
 }
 </script>
 

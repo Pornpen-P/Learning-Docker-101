@@ -1,55 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Backend1" tests="2" time="0.113">
-  <testsuite name="Get user" id="1a368e5f-b5a6-4954-88b5-b59fcd06c7e9" timestamp="2024-05-08T12:26:28.304Z" tests="2" failures="2" errors="0" time="0.096">
-    <testcase name="Status code is 200" time="0.096" classname="Backend1">
-      <failure type="AssertionFailure" message="expected response to have status code 200 but got 500">
-        <![CDATA[Failed 1 times.]]>
-        <![CDATA[Collection JSON ID: 887b2c52-7ac6-485d-b2bd-256931c259b3.]]>
-        <![CDATA[Collection name: Backend1.]]>
-        <![CDATA[Request name: Get user.]]>
-        <![CDATA[Test description: Status code is 200.]]>
-        <![CDATA[Error message: expected response to have status code 200 but got 500.]]>
-        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 500
-   at Object.eval sandbox-script.js:1:1).]]>
-      </failure>
-    </testcase>
-    <testcase name="Schema is valid" time="0.096" classname="Backend1">
-      <failure type="AssertionFailure" message="expected false to be true">
-        <![CDATA[Failed 1 times.]]>
-        <![CDATA[Collection JSON ID: 887b2c52-7ac6-485d-b2bd-256931c259b3.]]>
-        <![CDATA[Collection name: Backend1.]]>
-        <![CDATA[Request name: Get user.]]>
-        <![CDATA[Test description: Schema is valid.]]>
-        <![CDATA[Error message: expected false to be true.]]>
-        <![CDATA[Stacktrace: AssertionError: expected false to be true
-   at Object.eval sandbox-script.js:2:1).]]>
-      </failure>
-    </testcase>
+<testsuites name="Backend1" tests="2" time="0.136">
+  <testsuite name="Get user" id="accd3d30-8218-4ad2-acae-b8c4a4e83468" timestamp="2024-05-10T03:13:53.397Z" tests="2" failures="0" errors="0" time="0.116">
+    <testcase name="Status code is 200" time="0.116" classname="Backend1"/>
+    <testcase name="Schema is valid" time="0.116" classname="Backend1"/>
   </testsuite>
-  <testsuite name="Get merchant" id="600c6a3d-cf84-4b68-b4f9-b4b65758d939" timestamp="2024-05-08T12:26:28.304Z" tests="2" failures="2" errors="0" time="0.017">
-    <testcase name="Status code is 200" time="0.017" classname="Backend1">
-      <failure type="AssertionFailure" message="expected response to have status code 200 but got 500">
-        <![CDATA[Failed 1 times.]]>
-        <![CDATA[Collection JSON ID: 887b2c52-7ac6-485d-b2bd-256931c259b3.]]>
-        <![CDATA[Collection name: Backend1.]]>
-        <![CDATA[Request name: Get merchant.]]>
-        <![CDATA[Test description: Status code is 200.]]>
-        <![CDATA[Error message: expected response to have status code 200 but got 500.]]>
-        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 500
-   at Object.eval sandbox-script.js:1:2).]]>
-      </failure>
-    </testcase>
-    <testcase name="Schema is valid" time="0.017" classname="Backend1">
-      <failure type="AssertionFailure" message="expected false to be true">
-        <![CDATA[Failed 1 times.]]>
-        <![CDATA[Collection JSON ID: 887b2c52-7ac6-485d-b2bd-256931c259b3.]]>
-        <![CDATA[Collection name: Backend1.]]>
-        <![CDATA[Request name: Get merchant.]]>
-        <![CDATA[Test description: Schema is valid.]]>
-        <![CDATA[Error message: expected false to be true.]]>
-        <![CDATA[Stacktrace: AssertionError: expected false to be true
-   at Object.eval sandbox-script.js:2:2).]]>
-      </failure>
-    </testcase>
+  <testsuite name="Get merchant" id="93219d9d-5d3c-4c19-8be2-99d54af473db" timestamp="2024-05-10T03:13:53.397Z" tests="2" failures="0" errors="0" time="0.020">
+    <testcase name="Status code is 200" time="0.020" classname="Backend1"/>
+    <testcase name="Schema is valid" time="0.020" classname="Backend1"/>
   </testsuite>
 </testsuites>
