@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Third party" tests="1" time="0.117">
-  <testsuite name="3rd party" id="6a406948-c885-46e1-ac4f-82a3c84f3e9d" timestamp="2024-05-10T03:13:55.691Z" tests="2" failures="0" errors="0" time="0.117">
-    <testcase name="Status code is 200" time="0.117" classname="ThirdParty"/>
-    <testcase name="Schema is valid" time="0.117" classname="ThirdParty"/>
+<testsuites name="Third party" tests="1" time="0.122">
+  <testsuite name="3rd party" id="934b5390-d902-400d-869a-f2caf71f5ed6" timestamp="2024-05-10T06:03:54.957Z" tests="2" failures="0" errors="0" time="0.122">
+    <testcase name="Status code is 200" time="0.122" classname="ThirdParty"/>
+    <testcase name="Schema is valid" time="0.122" classname="ThirdParty"/>
   </testsuite>
 </testsuites>

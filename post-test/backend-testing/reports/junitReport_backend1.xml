@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Backend1" tests="2" time="0.136">
-  <testsuite name="Get user" id="accd3d30-8218-4ad2-acae-b8c4a4e83468" timestamp="2024-05-10T03:13:53.397Z" tests="2" failures="0" errors="0" time="0.116">
-    <testcase name="Status code is 200" time="0.116" classname="Backend1"/>
-    <testcase name="Schema is valid" time="0.116" classname="Backend1"/>
+<testsuites name="Backend1" tests="2" time="0.237">
+  <testsuite name="Get user" id="42b6cb94-f2d4-4177-acaa-a309f96d2c64" timestamp="2024-05-10T06:03:53.158Z" tests="2" failures="0" errors="0" time="0.218">
+    <testcase name="Status code is 200" time="0.218" classname="Backend1"/>
+    <testcase name="Schema is valid" time="0.218" classname="Backend1"/>
   </testsuite>
-  <testsuite name="Get merchant" id="93219d9d-5d3c-4c19-8be2-99d54af473db" timestamp="2024-05-10T03:13:53.397Z" tests="2" failures="0" errors="0" time="0.020">
-    <testcase name="Status code is 200" time="0.020" classname="Backend1"/>
-    <testcase name="Schema is valid" time="0.020" classname="Backend1"/>
+  <testsuite name="Get merchant" id="361b22b4-dd91-4f81-9d3e-37bb869b48fd" timestamp="2024-05-10T06:03:53.158Z" tests="2" failures="0" errors="0" time="0.019">
+    <testcase name="Status code is 200" time="0.019" classname="Backend1"/>
+    <testcase name="Schema is valid" time="0.019" classname="Backend1"/>
   </testsuite>
 </testsuites>

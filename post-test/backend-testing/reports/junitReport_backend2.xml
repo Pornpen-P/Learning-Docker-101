@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Backend2" tests="2" time="0.165">
-  <testsuite name="Get pet" id="c12cd584-5494-41d7-be21-3633bdbc42d2" timestamp="2024-05-10T03:13:54.566Z" tests="5" failures="0" errors="0" time="0.124">
-    <testcase name="Response status code is 200" time="0.124" classname="Backend2"/>
-    <testcase name="Response has the required fields - id, name, and total" time="0.124" classname="Backend2"/>
-    <testcase name="Name is a non-empty string" time="0.124" classname="Backend2"/>
-    <testcase name="Total is a non-negative integer" time="0.124" classname="Backend2"/>
-    <testcase name="Content-Type header is application/json" time="0.124" classname="Backend2"/>
+<testsuites name="Backend2" tests="2" time="0.086">
+  <testsuite name="Get pet" id="749d2163-25c0-49c6-82df-114b5209147e" timestamp="2024-05-10T06:03:54.160Z" tests="5" failures="0" errors="0" time="0.070">
+    <testcase name="Response status code is 200" time="0.070" classname="Backend2"/>
+    <testcase name="Response has the required fields - id, name, and total" time="0.070" classname="Backend2"/>
+    <testcase name="Name is a non-empty string" time="0.070" classname="Backend2"/>
+    <testcase name="Total is a non-negative integer" time="0.070" classname="Backend2"/>
+    <testcase name="Content-Type header is application/json" time="0.070" classname="Backend2"/>
   </testsuite>
-  <testsuite name="Get food" id="59bc101e-2754-47ab-960b-97daecc79678" timestamp="2024-05-10T03:13:54.566Z" tests="5" failures="0" errors="0" time="0.041">
-    <testcase name="Response status code is 200" time="0.041" classname="Backend2"/>
-    <testcase name="Response has the required fields - id, name, and total" time="0.041" classname="Backend2"/>
-    <testcase name="Name is a non-empty string" time="0.041" classname="Backend2"/>
-    <testcase name="Total is a non-negative integer" time="0.041" classname="Backend2"/>
-    <testcase name="Content-Type header is application/json" time="0.041" classname="Backend2"/>
+  <testsuite name="Get food" id="6ea8be19-c11c-40b7-83a3-cfbefeb9b89a" timestamp="2024-05-10T06:03:54.160Z" tests="5" failures="0" errors="0" time="0.016">
+    <testcase name="Response status code is 200" time="0.016" classname="Backend2"/>
+    <testcase name="Response has the required fields - id, name, and total" time="0.016" classname="Backend2"/>
+    <testcase name="Name is a non-empty string" time="0.016" classname="Backend2"/>
+    <testcase name="Total is a non-negative integer" time="0.016" classname="Backend2"/>
+    <testcase name="Content-Type header is application/json" time="0.016" classname="Backend2"/>
   </testsuite>
 </testsuites>
